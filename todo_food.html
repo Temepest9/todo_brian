@@ -2,91 +2,64 @@
 <html>
 <meta charset="utf-8">
 <head>
-        <!--
-        .row .column1 {
-              float: left;
-              width: 10%;
-              border-width: 3px;
-              border-style: double;
-        }
-        -->
-        <style>
-        .row .column1 {
-              float: left;
-              width: 10%;
-              
-        }
-        .row .column2 {
-              float: left;
-              width: 20%;
-              
-        }
-        .row .column3 {
-              float: left;
-              width: 20%;
-              
-        }
-        .row .column4 {
-              float: left;
-              width: 20%;
-              
-        }
-        .row .column5 {
-              float: left;
-              width: 20%;
-              
-        }
-
-        /* Clear floats after the columns */
-        .row:after {
-              content: "";
-              display: table;
-              clear: both;
-        }
-        </style>
+      <title>Todo List Application - Food</title>
+      <link rel="stylesheet" href="todo.css">
+      <style>
+        .pomodoro-estimate{
+          font-weight: bold;
+          color: #F44336;
+          background-color: #F5F5F5;
+          border-radius: 50px;
+          font-size: 14px;
+          padding: 5px 10px 5px 10px;
+      }
+      
+      </style>
 </head>
 <body>
     
-    <h1>School Todo List</h1>
+    <h1>Food Todo List</h1>
     <div class="row">
     <ol>
       <li>
         <div class="column1"><input type="checkbox" name="delete_1" value="1"/></div>
-        <div class="column2">Complete math project</div>
+        <div class="column2">Complete math project</div><span class="pomodoro-estimate">3 Pomodoros</span>
       </li>
       <li>
         <div class="column1"><input type="checkbox" name="delete_1" value="1"/></div>
-        <div class="column2">Complete History project</div>
+        <div class="column2">Complete History project</div><span class="pomodoro-estimate">3 Pomodoros</span>
       </li>
       <li>
         <div class="column1"><input type="checkbox" name="delete_1" value="1"/></div>
-        <div class="column2">Complete ELA project</div>
+        <div class="column2">Complete ELA project</div><span class="pomodoro-estimate">3 Pomodoros</span>
       </li>
       <li>
         <div class="column1"><input type="checkbox" name="delete_1" value="1"/></div>
-        <div class="column2">Complete Science project</div>
+        <div class="column2">Complete Science project</div><span class="pomodoro-estimate">3 Pomodoros</span>
       </li>
       <li>
         <div class="column1"><input type="checkbox" name="delete_1" value="1"/></div>
-        <div class="column2">Complete Health project</div>
+        <div class="column2">Complete Health project</div><span class="pomodoro-estimate">3 Pomodoros</span>
       </li>
       <li>
         <div class="column1"><input type="checkbox" name="delete_1" value="1"/></div>
-        <div class="column2">Get to School by 7:45</div>
+        <div class="column2">Get to School by 7:45</div><span class="pomodoro-estimate">3 Pomodoros</span>
       </li>
       <li>
         <div class="column1"><input type="checkbox" name="delete_1" value="1"/></div>
-        <div class="column2">Change for gym at 11:45</div>
+        <div class="column2">Change for gym at 11:45</div><span class="pomodoro-estimate">3 Pomodoros</span>
       </li>
     </ol>
     </div>
+    <span class="box-one">Box 1</span>
+<span class="box-two">Box 2</span>
     <input type="text" placeholder="Add a new todo...">
 <input type="number" placeholder="Pomodoro estimate...">
-<input type="submit" value="Add todo">
+<input id="add-new-todo-button" type="submit" value="Add todo">
     <h2>Make the curriculum 4 Pomodoros</h2>
     <a href="#">Edit</a>
     <a href="#">Delete</a>
-    <a href="https://todo-app-front-end-brian-tempest9.c9users.io/todo.html">Go back...</a>
+    <a href="/todo.html">Go back...</a>
 </body>
 
 </html>
