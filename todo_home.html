@@ -1,0 +1,92 @@
+<!DOCTTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+        <!--
+        .row .column1 {
+              float: left;
+              width: 10%;
+              border-width: 3px;
+              border-style: double;
+        }
+        -->
+        <style>
+        .row .column1 {
+              float: left;
+              width: 10%;
+              
+        }
+        .row .column2 {
+              float: left;
+              width: 20%;
+              
+        }
+        .row .column3 {
+              float: left;
+              width: 20%;
+              
+        }
+        .row .column4 {
+              float: left;
+              width: 20%;
+              
+        }
+        .row .column5 {
+              float: left;
+              width: 20%;
+              
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+              content: "";
+              display: table;
+              clear: both;
+        }
+        </style>
+</head>
+<body>
+    
+    <h1>School Todo List</h1>
+    <div class="row">
+    <ol>
+      <li>
+        <div class="column1"><input type="checkbox" name="delete_1" value="1"/></div>
+        <div class="column2">Complete math project</div>
+      </li>
+      <li>
+        <div class="column1"><input type="checkbox" name="delete_1" value="1"/></div>
+        <div class="column2">Complete History project</div>
+      </li>
+      <li>
+        <div class="column1"><input type="checkbox" name="delete_1" value="1"/></div>
+        <div class="column2">Complete ELA project</div>
+      </li>
+      <li>
+        <div class="column1"><input type="checkbox" name="delete_1" value="1"/></div>
+        <div class="column2">Complete Science project</div>
+      </li>
+      <li>
+        <div class="column1"><input type="checkbox" name="delete_1" value="1"/></div>
+        <div class="column2">Complete Health project</div>
+      </li>
+      <li>
+        <div class="column1"><input type="checkbox" name="delete_1" value="1"/></div>
+        <div class="column2">Get to School by 7:45</div>
+      </li>
+      <li>
+        <div class="column1"><input type="checkbox" name="delete_1" value="1"/></div>
+        <div class="column2">Change for gym at 11:45</div>
+      </li>
+    </ol>
+    </div>
+    <input type="text" placeholder="Add a new todo...">
+<input type="number" placeholder="Pomodoro estimate...">
+<input type="submit" value="Add todo">
+    <h2>Make the curriculum 4 Pomodoros</h2>
+    <a href="#">Edit</a>
+    <a href="#">Delete</a>
+    <a href="https://todo-app-front-end-brian-tempest9.c9users.io/todo.html">Go back...</a>
+</body>
+
+</html>
